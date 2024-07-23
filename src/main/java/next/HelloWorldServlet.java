@@ -2,12 +2,11 @@ package next;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletException;  // javax.servlet에서 jakarta.servlet으로 변경
+import jakarta.servlet.annotation.WebServlet;  // javax.servlet.annotation에서 jakarta.servlet.annotation으로 변경
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
